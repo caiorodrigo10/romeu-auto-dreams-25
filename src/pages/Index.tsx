@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import RomeuPita from "@/components/RomeuPita";
 import Reasons from "@/components/Reasons";
+import BestSellers from "@/components/BestSellers";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Manufacturers />
       <PurchaseProcess />
       <RomeuPita />
+      <BestSellers />
       <Testimonials />
       <Contact />
     </div>
