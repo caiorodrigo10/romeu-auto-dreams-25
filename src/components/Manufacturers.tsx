@@ -1,10 +1,27 @@
+import { Car } from "lucide-react";
+
 const Manufacturers = () => {
   const brands = [
-    "Toyota",
-    "Honda",
-    "Ford",
-    "Chevrolet",
-    "Hyundai",
+    {
+      name: "Toyota",
+      icon: <Car className="w-12 h-12 text-accent mb-4" />
+    },
+    {
+      name: "Honda",
+      icon: <Car className="w-12 h-12 text-accent mb-4" />
+    },
+    {
+      name: "Ford",
+      icon: <Car className="w-12 h-12 text-accent mb-4" />
+    },
+    {
+      name: "Chevrolet",
+      icon: <Car className="w-12 h-12 text-accent mb-4" />
+    },
+    {
+      name: "Hyundai",
+      icon: <Car className="w-12 h-12 text-accent mb-4" />
+    },
   ];
 
   return (
@@ -18,9 +35,10 @@ const Manufacturers = () => {
           {brands.map((brand, index) => (
             <div
               key={index}
-              className="flex items-center justify-center p-8 rounded-lg bg-secondary/50 backdrop-blur-sm hover:bg-accent/10 transition-colors duration-300"
+              className="flex flex-col items-center justify-center p-8 rounded-lg bg-secondary/50 backdrop-blur-sm hover:bg-accent/10 transition-colors duration-300"
             >
-              <span className="text-xl font-bold text-white">{brand}</span>
+              {brand.icon}
+              <span className="text-xl font-bold text-white">{brand.name}</span>
             </div>
           ))}
         </div>
