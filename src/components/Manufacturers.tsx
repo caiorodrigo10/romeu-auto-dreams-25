@@ -1,25 +1,10 @@
 const Manufacturers = () => {
   const brands = [
-    {
-      name: "Toyota",
-      logo: "/logos/toyota.svg"
-    },
-    {
-      name: "Honda",
-      logo: "/logos/honda.svg"
-    },
-    {
-      name: "Ford",
-      logo: "/logos/ford.svg"
-    },
-    {
-      name: "Chevrolet",
-      logo: "/logos/chevrolet.svg"
-    },
-    {
-      name: "Hyundai",
-      logo: "/logos/hyundai.svg"
-    },
+    "Toyota",
+    "Honda",
+    "Ford",
+    "Chevrolet",
+    "Hyundai",
   ];
 
   return (
@@ -35,11 +20,7 @@ const Manufacturers = () => {
               key={index}
               className="flex items-center justify-center p-8 rounded-lg bg-secondary/50 backdrop-blur-sm hover:bg-accent/10 transition-colors duration-300"
             >
-              <img 
-                src={brand.logo} 
-                alt={`Logo ${brand.name}`} 
-                className="w-24 h-auto object-contain filter brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-300"
-              />
+              <span className="text-xl font-bold text-white">{brand}</span>
             </div>
           ))}
         </div>
