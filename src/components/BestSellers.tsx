@@ -42,7 +42,7 @@ const BestSellers = () => {
     },
     {
       name: "Toyota Camry",
-      image: "/lovable-uploads/camry.jpg",
+      image: "/lovable-uploads/51742723-e380-4c43-912b-dd428010cc4d.png",
       features: ["Sedan Luxuoso", "Híbrido Disponível", "Design Moderno"],
       testimonial: {
         name: "Mariana Costa",
