@@ -32,7 +32,7 @@ const BestSellers = () => {
     },
     {
       name: "Tesla Model Y",
-      image: "/lovable-uploads/model-y.jpg",
+      image: "/lovable-uploads/1fb08607-a1a7-4885-a877-2a29bb34c00d.png",
       features: ["100% Elétrico", "Autopilot", "Alta Performance"],
       testimonial: {
         name: "Ricardo Santos",
