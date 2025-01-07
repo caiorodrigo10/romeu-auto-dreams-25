@@ -17,7 +17,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <span className="text-2xl font-bold text-accent">Romeu Pita</span>
+            <img 
+              src="/lovable-uploads/04a2ed0a-67a6-49ed-b761-5a4765d133c1.png"
+              alt="Romeu Pita"
+              className="h-8 md:h-10"
+            />
           </div>
           
           {/* Desktop Menu */}
