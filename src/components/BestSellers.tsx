@@ -24,7 +24,7 @@ const BestSellers = () => {
     },
     {
       name: "Honda CR-V",
-      image: "/lovable-uploads/crv.jpg",
+      image: "/lovable-uploads/c55eabb3-bb95-470f-84f5-8944d8a1bbaa.png",
       price: "US$ 28,410",
       features: ["Espaço Interno Amplo", "Tecnologia Avançada", "Segurança 5 Estrelas"],
       testimonial: {
