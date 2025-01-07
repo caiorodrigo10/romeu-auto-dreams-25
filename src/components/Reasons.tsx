@@ -1,4 +1,4 @@
-import { Car, DollarSign, Flag, ThumbsUp, Road } from "lucide-react";
+import { Car, DollarSign, Flag, ThumbsUp, CarFront } from "lucide-react";
 
 const Reasons = () => {
   const reasons = [
@@ -23,7 +23,7 @@ const Reasons = () => {
       description: "Padrão de qualidade americano reconhecido mundialmente."
     },
     {
-      icon: <Road className="w-12 h-12 text-accent mb-4" />,
+      icon: <CarFront className="w-12 h-12 text-accent mb-4" />,
       title: "Quilometragem Zero",
       description: "Seja o primeiro e único dono, sem histórico de uso anterior."
     }
