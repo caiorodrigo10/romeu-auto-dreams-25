@@ -6,7 +6,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 
 const BestSellers = () => {
@@ -14,7 +13,6 @@ const BestSellers = () => {
     {
       name: "Toyota RAV4",
       image: "/lovable-uploads/4cb67f09-27ba-4685-9474-f768ac1e57d0.png",
-      price: "US$ 27,575",
       features: ["SUV Compacto", "Consumo Eficiente", "Alta Confiabilidade"],
       testimonial: {
         name: "Carlos Mendes",
@@ -25,7 +23,6 @@ const BestSellers = () => {
     {
       name: "Honda CR-V",
       image: "/lovable-uploads/c55eabb3-bb95-470f-84f5-8944d8a1bbaa.png",
-      price: "US$ 28,410",
       features: ["Espaço Interno Amplo", "Tecnologia Avançada", "Segurança 5 Estrelas"],
       testimonial: {
         name: "Ana Paula Silva",
@@ -36,7 +33,6 @@ const BestSellers = () => {
     {
       name: "Tesla Model Y",
       image: "/lovable-uploads/model-y.jpg",
-      price: "US$ 43,990",
       features: ["100% Elétrico", "Autopilot", "Alta Performance"],
       testimonial: {
         name: "Ricardo Santos",
@@ -47,7 +43,6 @@ const BestSellers = () => {
     {
       name: "Toyota Camry",
       image: "/lovable-uploads/camry.jpg",
-      price: "US$ 25,945",
       features: ["Sedan Luxuoso", "Híbrido Disponível", "Design Moderno"],
       testimonial: {
         name: "Mariana Costa",
@@ -58,7 +53,6 @@ const BestSellers = () => {
     {
       name: "Ford F-150",
       image: "/lovable-uploads/f150.jpg",
-      price: "US$ 33,695",
       features: ["Picape Robusta", "Alta Capacidade", "Tecnologia Avançada"],
       testimonial: {
         name: "Pedro Oliveira",
@@ -87,11 +81,6 @@ const BestSellers = () => {
                         alt={car.name}
                         className="object-cover w-full h-full"
                       />
-                      <div className="absolute top-4 right-4">
-                        <Badge variant="secondary" className="bg-accent text-white">
-                          {car.price}
-                        </Badge>
-                      </div>
                     </div>
                     
                     <h3 className="text-2xl font-bold mb-4">{car.name}</h3>
