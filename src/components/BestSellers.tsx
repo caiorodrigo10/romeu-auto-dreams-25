@@ -52,7 +52,7 @@ const BestSellers = () => {
     },
     {
       name: "Ford F-150",
-      image: "/lovable-uploads/f150.jpg",
+      image: "/lovable-uploads/a3c38375-a56a-4668-b479-f01e63862c10.png",
       features: ["Picape Robusta", "Alta Capacidade", "Tecnologia Avançada"],
       testimonial: {
         name: "Pedro Oliveira",
