@@ -13,7 +13,7 @@ const BestSellers = () => {
   const bestSellers = [
     {
       name: "Toyota RAV4",
-      image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2000",
+      image: "/lovable-uploads/4cb67f09-27ba-4685-9474-f768ac1e57d0.png",
       price: "US$ 27,575",
       features: ["SUV Compacto", "Consumo Eficiente", "Alta Confiabilidade"],
       testimonial: {
