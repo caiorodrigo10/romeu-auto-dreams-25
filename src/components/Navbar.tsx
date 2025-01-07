@@ -20,7 +20,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/04a2ed0a-67a6-49ed-b761-5a4765d133c1.png"
               alt="Romeu Pita"
-              className="h-10 md:h-12"
+              className="h-12 md:h-14"
             />
           </div>
           
