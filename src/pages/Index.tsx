@@ -6,7 +6,6 @@ import PurchaseProcess from "@/components/PurchaseProcess";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import RomeuPita from "@/components/RomeuPita";
-import Reasons from "@/components/Reasons";
 import BestSellers from "@/components/BestSellers";
 
 const Index = () => {
@@ -14,7 +13,6 @@ const Index = () => {
     <div className="bg-primary">
       <Navbar />
       <Hero />
-      <Reasons />
       <About />
       <Manufacturers />
       <PurchaseProcess />
