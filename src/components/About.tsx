@@ -1,42 +1,37 @@
-import { Award, Users, Car } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const About = () => {
-  const stats = [
-    {
-      icon: Award,
-      value: "7+",
-      label: "Anos de Experiência",
-    },
-    {
-      icon: Users,
-      value: "500+",
-      label: "Clientes Satisfeitos",
-    },
-    {
-      icon: Car,
-      value: "5",
-      label: "Fabricantes Parceiras",
-    },
-  ];
-
   return (
-    <section id="about" className="py-24 bg-secondary">
+    <section className="py-24 bg-[#0EA5E9]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-16">
-          Experiência e Confiança
-        </h2>
-        
-        <div className="grid md:grid-cols-3 gap-12 max-w-4xl mx-auto">
-          {stats.map((stat, index) => (
-            <div
-              key={index}
-              className="text-center p-6 rounded-lg bg-primary/50 backdrop-blur-sm animate-fade-in"
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="order-2 md:order-1">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Romeu Pita
+            </h2>
+            <p className="text-white/90 text-lg mb-6">
+              Com mais de 7 anos de experiência no mercado automotivo americano, me dedico a realizar o sonho de brasileiros que desejam adquirir seu carro nos Estados Unidos.
+            </p>
+            <p className="text-white/90 text-lg mb-8">
+              Minha missão é proporcionar uma experiência tranquila e segura, cuidando de todo o processo desde a escolha do veículo até a entrega final.
+            </p>
+            <Button 
+              className="bg-white hover:bg-white/90 text-[#0EA5E9] font-semibold px-8 py-6 text-lg group"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              <stat.icon className="w-12 h-12 text-accent mx-auto mb-4" />
-              <div className="text-4xl font-bold text-accent mb-2">{stat.value}</div>
-              <div className="text-white/80">{stat.label}</div>
-            </div>
-          ))}
+              Entre em Contato
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </div>
+          
+          <div className="order-1 md:order-2 flex justify-center">
+            <img 
+              src="/lovable-uploads/586c9687-9679-4de6-93e9-a5960835764c.png"
+              alt="Romeu Pita"
+              className="rounded-lg shadow-xl w-full max-w-md"
+            />
+          </div>
         </div>
       </div>
     </section>
