@@ -69,16 +69,16 @@ const BestSellers = () => {
   ];
 
   return (
-    <section className="py-24 bg-primary/5">
+    <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-16">
           Mais Vendidos nos EUA
         </h2>
         
         <Carousel className="max-w-5xl mx-auto">
-          <CarouselContent>
+          <CarouselContent className="-ml-2 md:-ml-4">
             {bestSellers.map((car, index) => (
-              <CarouselItem key={index}>
+              <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/2">
                 <Card className="border-none shadow-lg">
                   <CardContent className="p-6">
                     <div className="aspect-video relative mb-4 rounded-lg overflow-hidden">
@@ -124,8 +124,10 @@ const BestSellers = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <div className="hidden md:block">
+            <CarouselPrevious className="left-0 -translate-x-1/2" />
+            <CarouselNext className="right-0 translate-x-1/2" />
+          </div>
         </Carousel>
       </div>
     </section>
