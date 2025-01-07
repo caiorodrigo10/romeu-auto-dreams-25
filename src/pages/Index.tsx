@@ -6,12 +6,14 @@ import PurchaseProcess from "@/components/PurchaseProcess";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import RomeuPita from "@/components/RomeuPita";
+import Reasons from "@/components/Reasons";
 
 const Index = () => {
   return (
     <div className="bg-primary">
       <Navbar />
       <Hero />
+      <Reasons />
       <About />
       <Manufacturers />
       <PurchaseProcess />
