@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { getWhatsAppLink } from "@/utils/whatsapp";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
           </p>
           <Button 
             className="bg-accent hover:bg-accent/90 text-primary font-semibold px-8 py-6 text-lg group"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => window.open(getWhatsAppLink(), '_blank')}
           >
             Fale Comigo
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />

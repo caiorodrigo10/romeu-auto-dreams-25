@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { getWhatsAppLink } from "@/utils/whatsapp";
 
 const RomeuPita = () => {
   return (
@@ -18,7 +19,7 @@ const RomeuPita = () => {
             </p>
             <Button 
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-6 text-lg group"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open(getWhatsAppLink(), '_blank')}
             >
               Entre em Contato
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
