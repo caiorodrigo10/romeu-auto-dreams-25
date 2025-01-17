@@ -12,8 +12,8 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Contato</h3>
             <div className="flex items-center gap-2">
               <Mail className="h-5 w-5 text-accent" />
-              <a href="mailto:contato@romeuauto.com.br" className="hover:text-accent transition-colors">
-                contato@romeuauto.com.br
+              <a href="mailto:contato@romeupita.com" className="hover:text-accent transition-colors">
+                contato@romeupita.com
               </a>
             </div>
             <div className="flex items-center gap-2">
