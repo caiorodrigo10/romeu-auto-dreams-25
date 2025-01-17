@@ -1,7 +1,5 @@
-export const WHATSAPP_NUMBER = "+17543265530";
-export const DEFAULT_MESSAGE = "Olá Romeu! Gostaria de saber mais sobre como comprar um carro nos EUA.";
-
-export const getWhatsAppLink = (message: string = DEFAULT_MESSAGE) => {
-  const encodedMessage = encodeURIComponent(message);
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
+export const getWhatsAppLink = () => {
+  const phoneNumber = "14073009185";
+  const message = "Olá! Gostaria de saber mais sobre como comprar um carro nos EUA.";
+  return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 };
