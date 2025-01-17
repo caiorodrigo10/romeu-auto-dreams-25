@@ -6,17 +6,14 @@ const Testimonials = () => {
     {
       name: "@ismaelsanches10",
       text: "Sem dúvidas, o melhor! Compramos dois carros com ele e foi uma experiência nota 10. Romeu faz o impossível para conseguir o melhor negócio para o cliente!!!",
-      location: "Florida",
     },
     {
       name: "@muller88",
       text: "Comprei 4 carros com Romeu! Entre eles, usados e novos. Eu sou uns desses mais de 700 clientes SUPER satisfeitos! Obrigado irmão!",
-      location: "Texas",
     },
     {
       name: "@rodrigoleite26",
       text: "Atendimento top de linha, podem confiar! Comprei meu carro com ele e já estou planejando o próximo. Melhor da Flórida!",
-      location: "Florida",
     },
   ];
 
@@ -34,7 +31,6 @@ const Testimonials = () => {
                 <Quote className="w-8 h-8 text-accent mb-4" />
                 <p className="text-white/90 mb-4">{testimonial.text}</p>
                 <div className="text-accent font-semibold">{testimonial.name}</div>
-                <div className="text-white/60 text-sm">{testimonial.location}</div>
               </CardContent>
             </Card>
           ))}
