@@ -1,5 +1,6 @@
 import { Mail, Phone, Facebook, Instagram } from "lucide-react";
 import { Separator } from "./ui/separator";
+import { getWhatsAppLink } from "@/utils/whatsapp";
 
 const Footer = () => {
   return (
@@ -17,8 +18,13 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="h-5 w-5 text-accent" />
-              <a href="tel:+5511999999999" className="hover:text-accent transition-colors">
-                (11) 99999-9999
+              <a 
+                href={getWhatsAppLink()} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors"
+              >
+                +1 (754) 326-5530
               </a>
             </div>
           </div>
