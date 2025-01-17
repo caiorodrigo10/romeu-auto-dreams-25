@@ -11,7 +11,7 @@ const RomeuPita = () => {
               Romeu Pita
             </h2>
             <p className="text-white/90 text-lg mb-6">
-              Com mais de 7 anos de experiência no mercado automotivo americano, me dedico a realizar o sonho de brasileiros que desejam adquirir seu carro nos Estados Unidos.
+              Com mais de 5 anos de experiência no mercado automotivo americano, me dedico a realizar o sonho de brasileiros que desejam adquirir seu carro nos Estados Unidos.
             </p>
             <p className="text-white/90 text-lg mb-8">
               Minha missão é proporcionar uma experiência tranquila e segura, cuidando de todo o processo desde a escolha do veículo até a entrega final.

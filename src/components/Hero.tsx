@@ -12,7 +12,7 @@ const Hero = () => {
             Realize seu sonho de ter um carro novo nos EUA
           </h1>
           <p className="text-xl text-white/90 mb-8">
-            Há 7 anos ajudando brasileiros a encontrar o carro ideal com as melhores condições
+            Há 5 anos ajudando brasileiros a encontrar o carro ideal com as melhores condições
           </p>
           <Button 
             className="bg-accent hover:bg-accent/90 text-primary font-semibold px-8 py-6 text-lg group"
