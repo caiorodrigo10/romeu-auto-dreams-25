@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen relative bg-primary flex items-center">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-40"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-40"></div>
       
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl animate-fade-in">
