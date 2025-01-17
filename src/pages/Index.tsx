@@ -4,7 +4,6 @@ import About from "@/components/About";
 import Manufacturers from "@/components/Manufacturers";
 import PurchaseProcess from "@/components/PurchaseProcess";
 import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
 import RomeuPita from "@/components/RomeuPita";
 import BestSellers from "@/components/BestSellers";
 import NationwideService from "@/components/NationwideService";
@@ -22,7 +21,6 @@ const Index = () => {
       <BestSellers />
       <NationwideService />
       <Testimonials />
-      <Contact />
       <Footer />
     </div>
   );
