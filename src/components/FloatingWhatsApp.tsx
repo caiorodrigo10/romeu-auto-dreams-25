@@ -1,4 +1,4 @@
-import { WhatsappIcon } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 import { getWhatsAppLink } from "@/utils/whatsapp";
 
 const FloatingWhatsApp = () => {
@@ -9,7 +9,7 @@ const FloatingWhatsApp = () => {
         className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
         aria-label="Contato WhatsApp"
       >
-        <WhatsappIcon className="w-6 h-6" />
+        <MessageSquare className="w-6 h-6" />
       </button>
     </div>
   );
