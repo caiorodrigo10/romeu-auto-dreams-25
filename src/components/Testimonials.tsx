@@ -4,19 +4,19 @@ import { Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "João Silva",
-      text: "O Romeu me ajudou a encontrar o carro perfeito para minha família. Processo muito tranquilo e profissional.",
+      name: "@ismaelsanches10",
+      text: "Sem dúvidas, o melhor! Compramos dois carros com ele e foi uma experiência nota 10. Romeu faz o impossível para conseguir o melhor negócio para o cliente!!!",
       location: "Florida",
     },
     {
-      name: "Maria Santos",
-      text: "Excelente atendimento! Me auxiliou em todo o processo de compra, desde a escolha até a documentação.",
+      name: "@muller88",
+      text: "Comprei 4 carros com Romeu! Entre eles, usados e novos. Eu sou uns desses mais de 700 clientes SUPER satisfeitos! Obrigado irmão!",
       location: "Texas",
     },
     {
-      name: "Pedro Costa",
-      text: "Recomendo muito! O Romeu tem um conhecimento incrível do mercado e conseguiu condições excelentes.",
-      location: "California",
+      name: "@rodrigoleite26",
+      text: "Atendimento top de linha, podem confiar! Comprei meu carro com ele e já estou planejando o próximo. Melhor da Flórida!",
+      location: "Florida",
     },
   ];
 
