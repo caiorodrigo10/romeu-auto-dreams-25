@@ -12,7 +12,7 @@ const BestSellers = () => {
   const bestSellers = [
     {
       name: "Toyota RAV4",
-      image: "/lovable-uploads/4cb67f09-27ba-4685-9474-f768ac1e57d0.png",
+      image: "/lovable-uploads/73c1ee5d-2a5b-4b9b-8d6d-523c0a9758ae.png",
       link: "https://www.toyota.com/rav4/",
       features: ["SUV Compacto", "Consumo Eficiente", "Alta Confiabilidade"],
       testimonial: {
@@ -23,7 +23,7 @@ const BestSellers = () => {
     },
     {
       name: "Novo CRV 2025",
-      image: "/lovable-uploads/c55eabb3-bb95-470f-84f5-8944d8a1bbaa.png",
+      image: "/lovable-uploads/5336e285-6143-44dc-b60f-b94f93a1e26a.png",
       link: "https://automobiles.honda.com/cr-v",
       features: ["Espaço Interno Amplo", "Tecnologia Avançada", "Segurança 5 Estrelas"],
       testimonial: {
@@ -34,7 +34,7 @@ const BestSellers = () => {
     },
     {
       name: "Novo Corolla 2025",
-      image: "/lovable-uploads/51742723-e380-4c43-912b-dd428010cc4d.png",
+      image: "/lovable-uploads/9bbd2679-b600-4e75-bcb5-5350448a80c2.png",
       link: "https://www.toyota.com/corolla/",
       features: ["Design Moderno", "Economia", "Conforto Superior"],
       testimonial: {
@@ -45,7 +45,7 @@ const BestSellers = () => {
     },
     {
       name: "Novo Civic 2025",
-      image: "/lovable-uploads/ad57011b-579d-47a5-af1c-ec276206a154.png",
+      image: "/lovable-uploads/bc170c76-ba7a-4f7b-8a65-17123a9a9158.png",
       link: "https://automobiles.honda.com/civic-sedan",
       features: ["Tecnologia de Ponta", "Design Esportivo", "Eficiência"],
       testimonial: {
@@ -56,7 +56,7 @@ const BestSellers = () => {
     },
     {
       name: "Civic Sport",
-      image: "/lovable-uploads/04a2ed0a-67a6-49ed-b761-5a4765d133c1.png",
+      image: "/lovable-uploads/9923864d-c9f2-437d-8d8b-c1b0aabf7264.png",
       link: "https://automobiles.honda.com/tools/build-and-price-result?modelid=FE2F5SEW&modelseries=civic-sedan&modelyear=2025&extcolorcode=NH-731P#section=Powertrain&group=Powertrain&view=Interior&angle=0&state=TTpGRTJGNVNFVyRFQzpOSC03MzFQJEhDOnVuZGVmaW5lZCRJQzpCSyRPOiRGOkZJRlMkRUNDOkJLJEVDWDo=&payment=&paymentType=",
       features: ["Versão Esportiva", "Performance Superior", "Interior Premium"],
       testimonial: {
@@ -67,7 +67,7 @@ const BestSellers = () => {
     },
     {
       name: "Corolla S2 2025",
-      image: "/lovable-uploads/4c8f1f52-cc18-44c9-b4cb-245e3aea2770.png",
+      image: "/lovable-uploads/65057df4-1efa-489b-8d01-8aad7072fa99.png",
       link: "https://www.toyota.com/configurator/build/step/color/year/2025/series/corolla/model/1864/exteriorcolor/03T3/interiorcolor/FC26/packages/FE/?bap_guid=aeb3d79e-20c3-4e8b-82ca-158f22405399",
       features: ["Versão Especial", "Interior Luxuoso", "Máximo Desempenho"],
       testimonial: {
