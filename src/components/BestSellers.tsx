@@ -20,6 +20,61 @@ const BestSellers = () => {
         text: "Comprei meu RAV4 através do Romeu e não poderia estar mais satisfeito. O carro é extremamente confortável e econômico.",
         rating: 5
       }
+    },
+    {
+      name: "Novo CRV 2025",
+      image: "/lovable-uploads/c55eabb3-bb95-470f-84f5-8944d8a1bbaa.png",
+      link: "https://automobiles.honda.com/cr-v",
+      features: ["Espaço Interno Amplo", "Tecnologia Avançada", "Segurança 5 Estrelas"],
+      testimonial: {
+        name: "Ana Paula Silva",
+        text: "O CR-V superou todas as minhas expectativas. O processo de compra foi tranquilo e o Romeu me ajudou em cada etapa.",
+        rating: 5
+      }
+    },
+    {
+      name: "Novo Corolla 2025",
+      image: "/lovable-uploads/51742723-e380-4c43-912b-dd428010cc4d.png",
+      link: "https://www.toyota.com/corolla/",
+      features: ["Design Moderno", "Economia", "Conforto Superior"],
+      testimonial: {
+        name: "Mariana Costa",
+        text: "O Corolla é o equilíbrio perfeito entre luxo e economia. O Romeu encontrou exatamente o que eu procurava.",
+        rating: 5
+      }
+    },
+    {
+      name: "Novo Civic 2025",
+      image: "/lovable-uploads/ad57011b-579d-47a5-af1c-ec276206a154.png",
+      link: "https://automobiles.honda.com/civic-sedan",
+      features: ["Tecnologia de Ponta", "Design Esportivo", "Eficiência"],
+      testimonial: {
+        name: "Ricardo Santos",
+        text: "O Civic é simplesmente incrível. O Romeu me ajudou a escolher a versão perfeita para mim.",
+        rating: 5
+      }
+    },
+    {
+      name: "Civic Sport",
+      image: "/lovable-uploads/04a2ed0a-67a6-49ed-b761-5a4765d133c1.png",
+      link: "https://automobiles.honda.com/tools/build-and-price-result?modelid=FE2F5SEW&modelseries=civic-sedan&modelyear=2025&extcolorcode=NH-731P#section=Powertrain&group=Powertrain&view=Interior&angle=0&state=TTpGRTJGNVNFVyRFQzpOSC03MzFQJEhDOnVuZGVmaW5lZCRJQzpCSyRPOiRGOkZJRlMkRUNDOkJLJEVDWDo=&payment=&paymentType=",
+      features: ["Versão Esportiva", "Performance Superior", "Interior Premium"],
+      testimonial: {
+        name: "Pedro Oliveira",
+        text: "O Civic Sport é a combinação perfeita de esportividade e conforto. Agradeço ao Romeu pela excelente indicação.",
+        rating: 5
+      }
+    },
+    {
+      name: "Corolla S2 2025",
+      image: "/lovable-uploads/4c8f1f52-cc18-44c9-b4cb-245e3aea2770.png",
+      link: "https://www.toyota.com/configurator/build/step/color/year/2025/series/corolla/model/1864/exteriorcolor/03T3/interiorcolor/FC26/packages/FE/?bap_guid=aeb3d79e-20c3-4e8b-82ca-158f22405399",
+      features: ["Versão Especial", "Interior Luxuoso", "Máximo Desempenho"],
+      testimonial: {
+        name: "Julia Almeida",
+        text: "O Corolla S2 superou todas as expectativas. O Romeu foi fundamental na escolha desta versão especial.",
+        rating: 5
+      }
     }
   ];
 
