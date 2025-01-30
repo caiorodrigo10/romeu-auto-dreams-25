@@ -4,11 +4,18 @@ const Manufacturers = () => {
   const brands = [
     {
       name: "Toyota",
-      icon: <Car className="w-16 h-16 text-accent mb-4" />
+      icon: <Car className="w-16 h-16 text-accent mb-4" />,
+      description: "Líder mundial em inovação automotiva"
     },
     {
       name: "Honda",
-      icon: <Car className="w-16 h-16 text-accent mb-4" />
+      icon: <Car className="w-16 h-16 text-accent mb-4" />,
+      description: "Excelência em tecnologia e confiabilidade"
+    },
+    {
+      name: "GMC",
+      icon: <Car className="w-16 h-16 text-accent mb-4" />,
+      description: "Força e robustez americana"
     }
   ];
 
@@ -19,14 +26,15 @@ const Manufacturers = () => {
           Marcas Parceiras
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {brands.map((brand, index) => (
             <div
               key={index}
               className="flex flex-col items-center justify-center p-12 rounded-lg bg-secondary/50 backdrop-blur-sm hover:bg-accent/10 transition-colors duration-300"
             >
               {brand.icon}
-              <span className="text-2xl font-bold text-white">{brand.name}</span>
+              <span className="text-2xl font-bold text-white mb-2">{brand.name}</span>
+              <p className="text-white/80 text-center">{brand.description}</p>
             </div>
           ))}
         </div>
