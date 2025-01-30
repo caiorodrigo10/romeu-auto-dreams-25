@@ -1,20 +1,21 @@
-import { Car } from "lucide-react";
+import { cn } from "@/lib/utils";
+import Image from "../components/ui/image";
 
 const Manufacturers = () => {
   const brands = [
     {
       name: "Toyota",
-      icon: <Car className="w-16 h-16 text-accent mb-4" />,
+      logo: "/lovable-uploads/37b2c0e4-7c60-46a2-b691-f7a640d31d9e.png",
       description: "Líder mundial em inovação automotiva"
     },
     {
       name: "Honda",
-      icon: <Car className="w-16 h-16 text-accent mb-4" />,
+      logo: "/lovable-uploads/54f8f13c-50da-44c5-bc21-bcf4a92b0420.png",
       description: "Excelência em tecnologia e confiabilidade"
     },
     {
       name: "GMC",
-      icon: <Car className="w-16 h-16 text-accent mb-4" />,
+      logo: "/lovable-uploads/31cff707-5e01-488a-a8b3-03404b86f982.png",
       description: "Força e robustez americana"
     }
   ];
@@ -32,7 +33,18 @@ const Manufacturers = () => {
               key={index}
               className="flex flex-col items-center justify-center p-12 rounded-lg bg-secondary/50 backdrop-blur-sm hover:bg-accent/10 transition-colors duration-300"
             >
-              {brand.icon}
+              <div className="w-32 h-32 mb-4 relative flex items-center justify-center">
+                <Image
+                  src={brand.logo}
+                  alt={`Logo ${brand.name}`}
+                  className={cn(
+                    "object-contain",
+                    brand.name === "Honda" && "w-full h-full",
+                    brand.name === "Toyota" && "w-full h-full",
+                    brand.name === "GMC" && "w-full h-full"
+                  )}
+                />
+              </div>
               <span className="text-2xl font-bold text-white mb-2">{brand.name}</span>
               <p className="text-white/80 text-center">{brand.description}</p>
             </div>
